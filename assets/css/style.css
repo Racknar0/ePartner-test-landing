@@ -39,12 +39,12 @@ body {
 }
 
 .logo_img {
-    width: 50px;
+    width: 100px;
 }
 
 .logo_text {
     color: var(--color2);
-    font-size: .60rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-left: -0.2rem;
 }
@@ -53,7 +53,7 @@ body {
     border: 1.4px solid ;
     background-color: var(--color5);
     border-radius: 3px;
-    padding: 2px;
+    padding: 5px;
 }
 
 .input-search:focus {
@@ -63,23 +63,26 @@ body {
 .contenedor_search_icon {
     background-color: var(--color3);
     border-radius: 3px;
-    width: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .fa-magnifying-glass {
     color: var(--color5);
     font-weight: 600;
+    font-size: 20px;
+    margin-top: -0.4rem;
 }
 
 .text_misPedidos {
-    font-size: 10px;
+    font-size: 1rem;
     color: var(--color6);
     font-weight: 800;
     font-family: var(--fuente1);
 }
 
 .text_holaAliado {
-    font-size: 10px;
+    font-size: 0.8rem;
     margin-bottom: -5px;
     font-weight: bold;
 }
@@ -102,7 +105,7 @@ body {
 }
 
 .text_carrito {
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 
@@ -115,7 +118,7 @@ body {
 
 
 .linksHeader {
-    font-size: 10px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -136,29 +139,34 @@ body {
 
 .hero {
     background-image: url(../img/hero.jpg);
-    height: 400px;
+    height: 700px;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
 .cotenedorTextoHero {
-    width: 180px;
+    width: 300px;
     position: absolute;
-    top: 100px;
+    top: 180px;
     left: 10%;
 }
 
 .textHero {
     font-family: var(--fuente4);
-    font-size: 35px;
+    font-size: 80px;
     color: var(--color5);
     line-height: 1;
 }
 
+.texto_mas{
+    color: #dfeb01;
+}
+
 .botonVerProductos {
     margin-top: -10px;
-    font-size: 12px;
+    font-size: 20px;
+    padding: 10px 60px; 
 }
 
 .contenedor_slider {
@@ -166,8 +174,8 @@ body {
 }
 
 .img-slide {
-    width: 200px;
-    height: 137px;
+    width: 350px;
+    height: 240px;
     border-radius: 5px;
 }
 
@@ -180,17 +188,18 @@ body {
     color: var(--color4);
     font-weight: bold;
     font-family: var(--fuente5);
+    font-size: 2.3rem !important;
 }
 
 .img_tarjeta {
-    width: 150px;
+    /* width: 350px; */
     border-radius: 5px;
     display: block;
     margin: 0 auto;
 }
 
 .texto_modelo {
-    font-size: 12px;
+    font-size: 20px;
     line-height: 1;
 }
 
@@ -200,7 +209,7 @@ body {
 }
 
 .btn-añadir {
-    font-size: 10px;
+    font-size: 20px;
 }
 
 
@@ -220,7 +229,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
 
 .area2 {
@@ -229,7 +238,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
 
 .area3 {
@@ -238,7 +247,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 415px;
+    height: 615px;
 }
 
 .area4 {
@@ -247,7 +256,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
 
 .area5 {
@@ -256,26 +265,28 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
 }
 
 .selector {
     background-color: var(--color7);
     color: var(--color8);
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     padding: 4px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-radius: 5px;
 }
 
 .selector_active {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .hero2 {
     background-image: url('../img/hero2.png');
-    height: 200px;
+    height: 400px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -290,14 +301,14 @@ footer {
 
 .titulo_footer {
     color: var(--color8);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 
 .link_footer {
     color: var(--color5);
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -319,7 +330,7 @@ footer {
 
 
 .texto_creditos {
-    font-size: 10px;
+    font-size: 25px;
     color: var(--color5);
     text-align: center;
     margin: 0;
@@ -338,7 +349,7 @@ footer {
     position: absolute;
     width: 100%;
     top: 100px;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 
@@ -348,12 +359,12 @@ footer {
 
 .section5 {
     background-color: var(--color1);
-    margin-top: 750px;
+    margin-top: 1050px;
 }
 
 @media (min-width: 768px) {
     .section5 {
-        margin-top: 450px;
+        margin-top: 625px;
     }
 }
 
@@ -362,4 +373,8 @@ footer {
     width: 600px;
     background-size: cover;
     background-position: center
+}
+
+.terapas{
+    padding-bottom: 50px ;
 }

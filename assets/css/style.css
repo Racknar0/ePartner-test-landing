@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Aristotelica;
+    src: url('../fonts/Aristotelica\ Display\ ExtraLight\ Trial.ttf');
+  }
+@font-face {
+    font-family: Aristotelica-regular;
+    src: url('../fonts/AristotelicaSmallCaps-Regular.ttf');
+  }
+
+body{
+    font-family: Aristotelica;
+}
+
+.header {
+    background-color: #f4f4f4;
+}
+
+.logo_img{
+    width: 50px;
+}
+
+.logo_text{
+    color: #0d4e8b;
+    font-size: .60rem;
+    font-weight: bold;
+    margin-left: -0.2rem;
+}
+
+.contenedor_search{
+    border: 1.4px solid #000;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.input-search:focus{
+    outline: none;
+} 
+    
+
+
+.contenedor_search_icon{
+    background-color: #000;
+    border-radius: 3px;
+    width: 30px;
+}
+
+.fa-magnifying-glass{
+    color: white;
+    font-weight: 600;
+}
+
+.text_misPedidos{
+    font-size: 10px;
+    color: #0065d9;
+    font-weight: 800;
+    font-family: Aristotelica-regular;
+}
+
+.text_holaAliado{
+    font-size: 10px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.arroba{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link_ingresa{
+    color: #003a8a;
+    font-weight: bold;
+}
+
+.text_ingresa{
+    margin: 0;
+}
+
+
+.text_carrito{
+    font-size: 10px;
+}
+
+.carrito-container{
+    position: relative;
+}
+
+.cero_carrito{
+    position: absolute;
+    font-size: 13px;
+    top: -5px;
+    right: 7px;
+}

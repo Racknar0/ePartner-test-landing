@@ -91,3 +91,23 @@ body{
     top: -5px;
     right: 7px;
 }
+
+
+.linksHeader{
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linksHeader:hover{
+    text-decoration: underline ;
+    color: #0065d9 ;
+}
+
+.linksHeaderActive {
+    color: #0065d9 ;
+}
+
+.textoLinkHeader:hover{
+    color: #0065d9 ;
+}
